@@ -16,23 +16,23 @@ tags.forEach(tag => {
 });
 
 /* 实现离开和进入页面时改变title和ico图标 */
-/*var OriginTitile = document.title,
+var OriginTitile = document.title,
 titleTime;
 document.addEventListener("visibilitychange",
 function() {
     if (document.hidden) {
         $('[rel="shortcut icon"]').attr("href", "//www.dreamwings.cn/queue/wp-content/uploads/2016/05/fail.ico");
-        document.title = "页面已崩溃！点击恢复！";
+        document.title = "404你所访问的页面不存在";
         clearTimeout(titleTime)
     } else {
         $('[rel="shortcut icon"]').attr("href", "//www.ihewro.com/favicon.ico");
-        document.title = "(/≧▽≦/)咦！又好了！ " + OriginTitile;
+        document.title = "⊙▽⊙咦？你点下又好了！ " + OriginTitile;
         titleTime = setTimeout(function() {
             document.title = OriginTitile
         },
         2000)
     }
-});*/
+});
 
 
 /*评论框特效*/
