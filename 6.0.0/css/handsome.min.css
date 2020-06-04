@@ -492,7 +492,7 @@ a.list-group-item.hover,a.list-group-item:focus,a.list-group-item:hover {
 
 .single-post.panel {
 	border-radius: 6px;
-	border: none
+	border: none;
 }
 
 .block-panel {
@@ -10069,6 +10069,7 @@ button {
 	}
 }
 
+/*评论背景*/
 .wrapper-md>#comments{
 	border: solid 1px #fff;
 	padding: 10px 30px 20px 30px;
